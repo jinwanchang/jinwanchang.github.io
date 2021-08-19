@@ -3,7 +3,7 @@
 
 
 /*---------------------------------------------------*/
-/*	01) SHANE BASE
+/*	01)  BASE
 /*---------------------------------------------------*/
 
 html {
@@ -216,7 +216,7 @@ h6 { font-size: 16px; }
 }
 
 /*---------------------------------------------------*/
-/*	02) SHANE MOBILE MENU
+/*	02)  MOBILE MENU
 /*---------------------------------------------------*/
 
 .shane_tm_mobile_menu{
@@ -375,7 +375,7 @@ h6 { font-size: 16px; }
 .shane_tm_mobile_menu .logo img{max-width: 100px;}
 
 /*---------------------------------------------------*/
-/*	03) SHANE TOPBAR
+/*	03)  TOPBAR
 /*---------------------------------------------------*/
 
 .shane_tm_topbar{
@@ -445,7 +445,7 @@ h6 { font-size: 16px; }
 
 
 /*---------------------------------------------------*/
-/*	04) SHANE HERO
+/*	04)  HERO
 /*---------------------------------------------------*/
 
 .shane_tm_hero{
@@ -644,7 +644,7 @@ body.loaded .overlay_effect:after{
 .shane_tm_down[data-skin="light"] .line_wrapper:before{background-color: #fff;}
 
 /*---------------------------------------------------*/
-/*	05) SHANE ABOUT
+/*	05)  ABOUT
 /*---------------------------------------------------*/
 
 .shane_tm_about{
@@ -734,7 +734,7 @@ body.loaded .overlay_effect:after{
 
 
 /*---------------------------------------------------*/
-/*	06) SHANE PORTFOLIO
+/*	06) PORTFOLIO
 /*---------------------------------------------------*/
 
 .shane_tm_title .title_flex{
@@ -865,7 +865,7 @@ body.loaded .overlay_effect:after{
 
 
 /*---------------------------------------------------*/
-/*	09) SHANE PARTNERS
+/*	07) SKILL
 /*---------------------------------------------------*/
 
 .shane_tm_partners{
@@ -902,450 +902,10 @@ body.loaded .overlay_effect:after{
 }
 .shane_tm_partners .partners_inner ul li:hover{opacity: 1;}
 
-/*---------------------------------------------------*/
-/*	10) SHANE TESTIMONIALS
-/*---------------------------------------------------*/
-
-.shane_tm_testimonials{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	background-color: #f9f9f9;
-	padding: 150px 0px;
-}
-.shane_tm_testimonials .testimonials_inner{
-	width: 100%;
-	height: auto;
-	clear: both;
-	display: flex;
-	justify-content: space-between;
-}
-.shane_tm_testimonials .left{
-	width: 50%;
-	padding-right: 50px;
-}
-.shane_tm_testimonials .right{
-	width: 50%;
-	padding-left: 50px;
-}
-.shane_tm_testimonials .right ul{
-	margin: 0px;
-	list-style-type: none;
-}
-.shane_tm_testimonials .right ul li{margin: 0px;}
-.shane_tm_testimonials .right .texts p{margin-bottom: 40px;}
-.shane_tm_testimonials .right .author{
-	width: 100%;
-	height: auto;
-	clear: both;
-	display: flex;
-	align-items: center;
-}
-.shane_tm_testimonials .right .author .image{
-	width: 65px;
-	height: 65px;
-	border-radius: 100%;
-	position: relative;
-	overflow: hidden;
-}
-.shane_tm_testimonials .right .author .main{
-	position: absolute;
-	top: -4px;
-	bottom: -4px;
-	left: -4px;
-	right: -4px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	border-radius: 100%;
-	opacity: 0;
-	
-	-webkit-transition: all 1s ease;
-	   -moz-transition: all 1s ease;
-	    -ms-transition: all 1s ease;
-	     -o-transition: all 1s ease;
-	        transition: all 1s ease;
-	
-	transform: scale(1.5) translateZ(0);
-}
-.shane_tm_testimonials .right .owl-carousel .owl-item.active .author .main{
-	opacity: 1;
-	transition: all 1s .3s ease;
-	transform: scale(1) translateZ(0);
-}
-.shane_tm_testimonials .right .short{padding-left: 25px;}
-.shane_tm_testimonials .right .short h3{
-	overflow: hidden;
-	margin: 0px;
-	padding: 0px;
-	line-height: 1;
-	position: relative;
-}
-.shane_tm_testimonials .right .short .author{
-	font-family: "Montserrat";
-	font-size: 18px;
-	color: #000;
-	font-weight: 600;
-	margin-bottom: 0px;
-	margin-bottom: 5px;
-}
-.shane_tm_testimonials .right .short .job{
-	font-weight: 400;
-	display: block;
-	font-size: 15px;
-}
-.shane_tm_testimonials .right .short .author span,
-.shane_tm_testimonials .right .short .job span{
-	position: relative;
-	display: block;
-	padding: 2px 0px;
-	transform: translateY(102%);
-	
-	-webkit-transition: all 1s ease;
-	   -moz-transition: all 1s ease;
-	    -ms-transition: all 1s ease;
-	     -o-transition: all 1s ease;
-	        transition: all 1s ease;
-}
-.shane_tm_testimonials .right .owl-carousel .owl-item.active .short .author span{
-	transform: translateY(0px);
-	transition-delay: 0.3s;
-}
-.shane_tm_testimonials .right .owl-carousel .owl-item.active .short .job span{
-	transform: translateY(0px);
-	transition-delay: 0.6s;
-}
-
-/*---------------------------------------------------*/
-/*	11) SHANE NEWS
-/*---------------------------------------------------*/
-
-.shane_tm_news{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	padding: 150px 0px 90px 0px;
-}
-.shane_tm_news .news_list{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	padding-top: 90px;
-}
-.shane_tm_news .news_list ul{
-	margin: 0px 0px 0px -50px;
-	list-style-type: none;
-	display: flex;
-	flex-wrap: wrap;
-}
-.shane_tm_news .news_list ul li{
-	margin: 0px 0px 50px 0px;
-	float: left;
-	width: 33.3333%;
-	padding-left: 50px;
-}
-.shane_tm_news .news_list ul li .list_inner{
-	width: 100%;
-	height: 100%;
-	clear: both;
-	float: left;
-	position: relative;
-}
-.shane_tm_news .news_list ul li .image{
-	position: relative;
-	overflow: hidden;
-}
-.shane_tm_news .news_list ul li .image img{
-	min-width: 100%;
-	opacity: 0;
-}
-.shane_tm_news .news_list ul li .image .main{
-	position: absolute;
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position:center; 
-	transform: scale(1) translateZ(0);
-	
-	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
-}
-.shane_tm_news .news_list ul li .list_inner .image:hover .main{transform: scale(1.1) rotate(3deg);}
-.shane_tm_news .news_list ul li .details{
-	width: 100%;
-	float: left;
-	padding-right: 15px;
-	padding-top: 32px;
-}
-.shane_tm_news .news_list ul li .details .title{margin-bottom: 10px;}
-.shane_tm_news .news_list ul li .details .title a{
-	text-decoration: none;
-	color: #000;
-	font-size: 18px;
-	font-weight: 600;
-	display: inline-block;
-	
-	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
-}
-.shane_tm_news .news_list ul li .details .title a:hover{color: #000;}
-.shane_tm_news .news_list ul li .details .date{
-	text-transform: uppercase;
-	font-family: "Poppins";
-	font-size: 12px;
-	color: #767676;
-	font-style: italic;
-}
-.shane_tm_news .news_list ul li .details .date a{
-	text-decoration: none;
-	color: #767676;
-	
-	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
-}
-.shane_tm_news .news_list ul li .details .date a:hover{color: #000;}
-.shane_tm_news .news_list ul li .details .date span{
-	position: relative;
-	margin-left: 11px;
-}
-.shane_tm_news .news_list ul li .details .date span:before{
-	position: absolute;
-	content: "";
-	margin-top: 1px;
-	top: 50%;
-	transform: translateY(-50%) rotate(15deg);
-	right: 100%;
-	background-color: #939393;
-	width: 1px;
-	height: 9px;
-	margin-right: 7px;
-}
-.shane_tm_news .description{
-	opacity: 0;
-	visibility: hidden;
-	position: absolute;
-	z-index: -11;
-	display: none;
-}
-body.modal{overflow: hidden;}
-.shane_tm_modalbox_news{
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	right: 0px;
-	height: 100vh;
-	z-index: 15;
-	background-color: rgba(0,0,0,.8);
-	opacity: 0;
-	visibility: hidden;
-	
-	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
-}
-.shane_tm_modalbox_news.opened{
-	opacity: 1;
-	visibility: visible;
-}
-.shane_tm_modalbox_news .container{height: 100vh;}
-.shane_tm_modalbox_news .box_inner{
-	position: absolute;
-	top: 70px;
-	bottom: 70px;
-	width: 1200px;
-	left: 50%;
-	transform: translateX(-50%);
-	background-color: #fff;
-	z-index: 1;
-	opacity: 0;
-	visibility: hidden;
-	margin-top: -20px;
-	transition-delay: .3s;
-	
-	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
-}
-.shane_tm_modalbox_news.opened .box_inner{
-	opacity: 1;
-	visibility: visible;
-	margin-top: 0px;
-}
-.shane_tm_modalbox_news .box_inner:before{
-	position: absolute;
-	content: "";
-	width: 100%;
-	height: 50px;
-	background-color: #fff;
-	top: 0px;
-	left: 0px;
-	z-index: 2;
-}
-.shane_tm_modalbox_news .box_inner:after{
-	position: absolute;
-	content: "";
-	width: 100%;
-	height: 50px;
-	background-color: #fff;
-	bottom: 0px;
-	left: 0px;
-	z-index: 2;
-}
-.shane_tm_modalbox_news .close{
-	position: fixed;
-	left: 100%;
-	top: 0px;
-	margin-left: 40px;
-	z-index: 20;
-}
-.shane_tm_modalbox_news .close a{
-	text-decoration: none;
-	color: #fff;
-}
-.shane_tm_modalbox_news .close .svg{
-	width: 50px;
-	height: 50px;
-}
-.shane_tm_modalbox_news .description_wrap{
-	position: relative;
-	width: 100%;
-	height: 100%;
-	float: left;
-	overflow: hidden;
-	padding: 50px;
-}
-.shane_tm_modalbox_news .details{
-	width: 100%;
-	float: left;
-	margin-bottom: 27px;
-}
-.shane_tm_modalbox_news .description{
-	width: 100%;
-	float: left;
-}
-.shane_tm_modalbox_news .description p{margin-bottom: 15px;}
-.shane_tm_modalbox_news .description blockquote{
-	font-style: italic;
-	color: #000;
-	border-left: 2px solid #000;
-	padding-left: 20px;
-	margin-bottom: 15px;
-}
-.shane_tm_modalbox_news .description_wrap .image{
-	position: relative;
-	max-height: 450px;
-	z-index: -1;
-	margin-bottom: 36px;
-}
-.shane_tm_modalbox_news .description_wrap .image img{min-width: 100%;}
-.shane_tm_modalbox_news .description_wrap .image .main{
-	position: absolute;
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-.shane_tm_modalbox_news .details .title{
-	font-weight: 600;
-	margin-bottom: 8px;
-}
-.shane_tm_modalbox_news .date{
-	text-transform: uppercase;
-    font-family: "Poppins";
-    font-size: 12px;
-    color: #767676;
-    font-style: italic;
-}
-.shane_tm_modalbox_news .date a{
-	text-decoration: none;
-    color: #767676;
-	
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
-}
-.shane_tm_modalbox_news .date a:hover{color: #e54b4b;}
-.shane_tm_modalbox_news .date span{
-	position: relative;
-    margin-left: 11px;
-}
-.shane_tm_modalbox_news .date span:before{
-	position: absolute;
-    content: "";
-    margin-top: 0px;
-    top: 50%;
-    transform: translateY(-50%) rotate(15deg);
-    right: 100%;
-    background-color: #939393;
-    width: 1px;
-    height: 9px;
-    margin-right: 7px;
-}
-.shane_tm_modalbox_news .share{
-	width: 100%;
-	height: auto;
-	clear: both;
-	display: flex;
-	align-items: center;
-	padding-top: 14px;
-}
-.shane_tm_modalbox_news .share span{
-	font-family: "Poppins";
-	color: #000;
-	font-weight: 600;
-	display: inline-block;
-	padding-right: 20px;
-}
-.shane_tm_modalbox_news .share ul{
-	margin: 0px;
-	list-style-type: none;
-}
-.shane_tm_modalbox_news .share ul li{
-	margin: 0px 15px 0px 0px;
-	display: inline-block;
-}
-.shane_tm_modalbox_news .share ul li:last-child{margin-right: 0px;}
-.shane_tm_modalbox_news .share ul li a{
-	text-decoration: none;
-	color: #000;
-}
-.shane_tm_full_link{
-	position: absolute;
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	z-index: 4;
-}
-
 
 
 /*---------------------------------------------------*/
-/*	13) SHANE COPYRIGHT
+/*	08) COPYRIGHT
 /*---------------------------------------------------*/
 
 .shane_tm_copyright{
@@ -1374,7 +934,7 @@ body.modal{overflow: hidden;}
 
 
 /*---------------------------------------------------*/
-/*	15) SHANE CURSOR
+/*	09) CURSOR
 /*---------------------------------------------------*/
 
 .mouse-cursor{
@@ -1428,7 +988,7 @@ body.modal{overflow: hidden;}
 }
 
 /*---------------------------------------------------*/
-/*	16) SHANE MEDIA QUERIES (FOR SMALL DEVIVES)
+/*	10) MEDIA QUERIES (FOR SMALL DEVIVES)
 /*---------------------------------------------------*/
 
 @media (max-width: 1600px) {
