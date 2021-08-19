@@ -1,26 +1,4 @@
 @charset "utf-8";
-/*
-/*	Copyright (c) 2021 Marketify
-/*	Author: Marketify
-/*	This file is made for CURRENT TEMPLATE
-
-
-01) SHANE BASE
-02) SHANE MOBILE MENU
-03) SHANE TOPBAR
-04) SHANE HERO
-05) SHANE ABOUT
-06) SHANE PORTFOLIO
-07) SHANE SKILLS
-08) SHANE VIDEO
-09) SHANE PARTNERS
-10) SHANE TESTIMONIALS
-11) SHANE NEWS
-12) SHANE TALK
-13) SHANE COPYRIGHT
-14) SHANE MODALBOX CONTACT
-15) SHANE CURSOR
-16) SHANE MEDIA QUERIES (FOR SMALL DEVIVES)
 
 
 /*---------------------------------------------------*/
@@ -237,7 +215,7 @@ h6 { font-size: 16px; }
 }
 
 /*---------------------------------------------------*/
-/*	02) SHANE MOBILE MENU
+/*	02) MOBILE MENU
 /*---------------------------------------------------*/
 
 .shane_tm_mobile_menu{
@@ -396,7 +374,7 @@ h6 { font-size: 16px; }
 .shane_tm_mobile_menu .logo img{max-width: 100px;}
 
 /*---------------------------------------------------*/
-/*	03) SHANE TOPBAR
+/*	03) TOPBAR
 /*---------------------------------------------------*/
 
 .shane_tm_topbar{
@@ -466,7 +444,7 @@ h6 { font-size: 16px; }
 
 
 /*---------------------------------------------------*/
-/*	04) SHANE HERO
+/*	04) HERO
 /*---------------------------------------------------*/
 
 .shane_tm_hero{
@@ -665,7 +643,7 @@ body.loaded .overlay_effect:after{
 .shane_tm_down[data-skin="light"] .line_wrapper:before{background-color: #fff;}
 
 /*---------------------------------------------------*/
-/*	05) SHANE ABOUT
+/*	05) ABOUT
 /*---------------------------------------------------*/
 
 .shane_tm_about{
@@ -755,7 +733,7 @@ body.loaded .overlay_effect:after{
 
 
 /*---------------------------------------------------*/
-/*	06) SHANE PORTFOLIO
+/*	06) PORTFOLIO
 /*---------------------------------------------------*/
 
 .shane_tm_title .title_flex{
@@ -886,7 +864,7 @@ body.loaded .overlay_effect:after{
 
 
 /*---------------------------------------------------*/
-/*	09) SHANE PARTNERS
+/*	07) SKILLS
 /*---------------------------------------------------*/
 
 .shane_tm_partners{
@@ -923,123 +901,10 @@ body.loaded .overlay_effect:after{
 }
 .shane_tm_partners .partners_inner ul li:hover{opacity: 1;}
 
-/*---------------------------------------------------*/
-/*	10) SHANE TESTIMONIALS
-/*---------------------------------------------------*/
-
-.shane_tm_testimonials{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	background-color: #f9f9f9;
-	padding: 150px 0px;
-}
-.shane_tm_testimonials .testimonials_inner{
-	width: 100%;
-	height: auto;
-	clear: both;
-	display: flex;
-	justify-content: space-between;
-}
-.shane_tm_testimonials .left{
-	width: 50%;
-	padding-right: 50px;
-}
-.shane_tm_testimonials .right{
-	width: 50%;
-	padding-left: 50px;
-}
-.shane_tm_testimonials .right ul{
-	margin: 0px;
-	list-style-type: none;
-}
-.shane_tm_testimonials .right ul li{margin: 0px;}
-.shane_tm_testimonials .right .texts p{margin-bottom: 40px;}
-.shane_tm_testimonials .right .author{
-	width: 100%;
-	height: auto;
-	clear: both;
-	display: flex;
-	align-items: center;
-}
-.shane_tm_testimonials .right .author .image{
-	width: 65px;
-	height: 65px;
-	border-radius: 100%;
-	position: relative;
-	overflow: hidden;
-}
-.shane_tm_testimonials .right .author .main{
-	position: absolute;
-	top: -4px;
-	bottom: -4px;
-	left: -4px;
-	right: -4px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	border-radius: 100%;
-	opacity: 0;
-	
-	-webkit-transition: all 1s ease;
-	   -moz-transition: all 1s ease;
-	    -ms-transition: all 1s ease;
-	     -o-transition: all 1s ease;
-	        transition: all 1s ease;
-	
-	transform: scale(1.5) translateZ(0);
-}
-.shane_tm_testimonials .right .owl-carousel .owl-item.active .author .main{
-	opacity: 1;
-	transition: all 1s .3s ease;
-	transform: scale(1) translateZ(0);
-}
-.shane_tm_testimonials .right .short{padding-left: 25px;}
-.shane_tm_testimonials .right .short h3{
-	overflow: hidden;
-	margin: 0px;
-	padding: 0px;
-	line-height: 1;
-	position: relative;
-}
-.shane_tm_testimonials .right .short .author{
-	font-family: "Montserrat";
-	font-size: 18px;
-	color: #000;
-	font-weight: 600;
-	margin-bottom: 0px;
-	margin-bottom: 5px;
-}
-.shane_tm_testimonials .right .short .job{
-	font-weight: 400;
-	display: block;
-	font-size: 15px;
-}
-.shane_tm_testimonials .right .short .author span,
-.shane_tm_testimonials .right .short .job span{
-	position: relative;
-	display: block;
-	padding: 2px 0px;
-	transform: translateY(102%);
-	
-	-webkit-transition: all 1s ease;
-	   -moz-transition: all 1s ease;
-	    -ms-transition: all 1s ease;
-	     -o-transition: all 1s ease;
-	        transition: all 1s ease;
-}
-.shane_tm_testimonials .right .owl-carousel .owl-item.active .short .author span{
-	transform: translateY(0px);
-	transition-delay: 0.3s;
-}
-.shane_tm_testimonials .right .owl-carousel .owl-item.active .short .job span{
-	transform: translateY(0px);
-	transition-delay: 0.6s;
-}
+/
 
 /*---------------------------------------------------*/
-/*	11) SHANE NEWS
+/*	08) SHANE NEWS
 /*---------------------------------------------------*/
 
 .shane_tm_news{
@@ -1366,7 +1231,7 @@ body.modal{overflow: hidden;}
 
 
 /*---------------------------------------------------*/
-/*	13) SHANE COPYRIGHT
+/*	09) COPYRIGHT
 /*---------------------------------------------------*/
 
 .shane_tm_copyright{
@@ -1395,7 +1260,7 @@ body.modal{overflow: hidden;}
 
 
 /*---------------------------------------------------*/
-/*	15) SHANE CURSOR
+/*	10) CURSOR
 /*---------------------------------------------------*/
 
 .mouse-cursor{
@@ -1449,7 +1314,7 @@ body.modal{overflow: hidden;}
 }
 
 /*---------------------------------------------------*/
-/*	16) SHANE MEDIA QUERIES (FOR SMALL DEVIVES)
+/*	10) SHANE MEDIA QUERIES (FOR SMALL DEVIVES)
 /*---------------------------------------------------*/
 
 @media (max-width: 1600px) {
