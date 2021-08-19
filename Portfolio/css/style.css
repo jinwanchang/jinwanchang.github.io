@@ -1,8 +1,30 @@
 @charset "utf-8";
+/*
+/*	Copyright (c) 2021 Marketify
+/*	Author: Marketify
+/*	This file is made for CURRENT TEMPLATE
+
+
+01) SHANE BASE
+02) SHANE MOBILE MENU
+03) SHANE TOPBAR
+04) SHANE HERO
+05) SHANE ABOUT
+06) SHANE PORTFOLIO
+07) SHANE SKILLS
+08) SHANE VIDEO
+09) SHANE PARTNERS
+10) SHANE TESTIMONIALS
+11) SHANE NEWS
+12) SHANE TALK
+13) SHANE COPYRIGHT
+14) SHANE MODALBOX CONTACT
+15) SHANE CURSOR
+16) SHANE MEDIA QUERIES (FOR SMALL DEVIVES)
 
 
 /*---------------------------------------------------*/
-/*	01)  BASE
+/*	01) SHANE BASE
 /*---------------------------------------------------*/
 
 html {
@@ -215,7 +237,7 @@ h6 { font-size: 16px; }
 }
 
 /*---------------------------------------------------*/
-/*	02) MOBILE MENU
+/*	02) SHANE MOBILE MENU
 /*---------------------------------------------------*/
 
 .shane_tm_mobile_menu{
@@ -374,7 +396,7 @@ h6 { font-size: 16px; }
 .shane_tm_mobile_menu .logo img{max-width: 100px;}
 
 /*---------------------------------------------------*/
-/*	03) TOPBAR
+/*	03) SHANE TOPBAR
 /*---------------------------------------------------*/
 
 .shane_tm_topbar{
@@ -444,7 +466,7 @@ h6 { font-size: 16px; }
 
 
 /*---------------------------------------------------*/
-/*	04) HERO
+/*	04) SHANE HERO
 /*---------------------------------------------------*/
 
 .shane_tm_hero{
@@ -864,7 +886,7 @@ body.loaded .overlay_effect:after{
 
 
 /*---------------------------------------------------*/
-/*	07) SKILL
+/*	09) SHANE PARTNERS
 /*---------------------------------------------------*/
 
 .shane_tm_partners{
